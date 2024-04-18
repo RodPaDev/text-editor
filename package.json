@@ -1,0 +1,27 @@
+{
+  "name": "nodeit",
+  "description": "Node.js based text editor",
+  "version": "1.0.0",
+  "license": "MIT",
+  "packageManager": "yarn@4.1.1",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon --exec ts-node src/index.ts",
+    "build": "rimraf ./dist && tsc",
+    "start": "npm run build && node dist/index.js",
+    "lint": "eslint"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.0.0",
+    "@types/node": "^20.12.7",
+    "eslint": "^9.0.0",
+    "nodemon": "^3.1.0",
+    "rimraf": "^5.0.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5",
+    "typescript-eslint": "^7.7.0"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2"
+  }
+}
