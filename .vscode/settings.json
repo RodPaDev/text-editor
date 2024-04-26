@@ -4,6 +4,6 @@
         "plaintext": false,
         "markdown": false,
         "scminput": true,
-        "typescript": false
+        "typescript": true
     }
 }

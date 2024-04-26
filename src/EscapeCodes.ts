@@ -10,4 +10,15 @@ export enum EscapeCodes {
     CLEAR_SCREEN = `${CSI}2J`,
     SHOW_CURSOR = `${CSI}?25h`,
     HIDE_CURSOR = `${CSI}?25l`,
+    CARRIAGE_RETURN_CRLF = "\r\n",
+    CARRIAGE_RETURN_LF = "\r",
+    LINE_FEED = "\n",
+    BACKSPACE = "\x7f",
+    DELETE = `${CSI}3~`,
+    TAB = "\t",
+    CANCEL = "\x03",
+    SAVE = "\x13",
+    QUIT = "\x11",
+    DISCARD = "\x05",
+    
 }
